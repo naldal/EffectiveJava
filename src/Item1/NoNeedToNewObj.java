@@ -1,8 +1,6 @@
-package staticFactoryMethod;
+package Item1;
 
 import java.math.BigInteger;
-
-import static java.math.BigInteger.ZERO;
 
 public class NoNeedToNewObj {
 

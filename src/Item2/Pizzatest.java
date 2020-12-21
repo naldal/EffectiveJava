@@ -1,7 +1,7 @@
-package BuilderPattern;
+package Item2;
 
-import static BuilderPattern.Pizza.Topping.*;
-import static BuilderPattern.NyPizza.Size.*;
+import static Item2.Pizza.Topping.*;
+import static Item2.NyPizza.Size.*;
 
 // 계층적 빌더 사용 (21쪽)
 public class Pizzatest {

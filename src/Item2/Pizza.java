@@ -1,4 +1,4 @@
-package BuilderPattern;
+package Item2;
 
 import java.util.EnumSet;
 import java.util.Objects;
