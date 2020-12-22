@@ -1,4 +1,4 @@
-package Item2;
+package chapter2.Item3;
 
 public class NutritionFacts {
     private final int servingSize;

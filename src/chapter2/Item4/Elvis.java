@@ -1,4 +1,4 @@
-package Item3;
+package chapter2.Item4;
 
 // 싱글턴 예제
 public class Elvis {

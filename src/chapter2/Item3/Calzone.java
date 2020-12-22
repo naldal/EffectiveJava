@@ -1,4 +1,4 @@
-package Item2;
+package chapter2.Item3;
 
 // 코드 2-6 칼초네 피자 - 계층적 빌더를 활용한 하위 클래스 (20~21쪽)
 public class Calzone extends Pizza {

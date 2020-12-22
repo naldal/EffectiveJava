@@ -1,4 +1,4 @@
-package Item2;
+package chapter2.Item3;
 
 public class CallNutrition {
     public static void main(String[] args) {

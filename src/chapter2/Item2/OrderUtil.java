@@ -1,4 +1,4 @@
-package Item1;
+package chapter2.Item2;
 
 public class OrderUtil {
 

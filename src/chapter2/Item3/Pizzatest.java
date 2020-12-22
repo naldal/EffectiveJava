@@ -1,7 +1,7 @@
-package Item2;
+package chapter2.Item3;
 
-import static Item2.Pizza.Topping.*;
-import static Item2.NyPizza.Size.*;
+import static chapter2.Item3.Pizza.Topping.*;
+import static chapter2.Item3.NyPizza.Size.*;
 
 // 계층적 빌더 사용 (21쪽)
 public class Pizzatest {
