@@ -2,3 +2,7 @@
 /out/
 .idea/
 EffectiveJava.iml
+*.lock
+gc.properties
+cache.properties
+last-build.bin
