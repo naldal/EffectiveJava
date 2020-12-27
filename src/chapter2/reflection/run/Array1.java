@@ -2,6 +2,7 @@ package chapter2.reflection.run;
 
 import java.lang.reflect.Array;
 
+// 배열의 사용
 public class Array1 {
     public static void main(String[] args) throws ClassNotFoundException {
         Class cls = Class.forName("java.lang.String");
