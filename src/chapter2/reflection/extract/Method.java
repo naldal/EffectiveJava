@@ -1,8 +1,6 @@
-package chapter2.reflection;
+package chapter2.reflection.extract;
 
-import java.lang.reflect.Method;
-
-public class method1 {
+public class Method {
     private int f1(Object p, int x) throws NullPointerException {
         if (p == null)
             throw new NullPointerException();
@@ -11,11 +9,11 @@ public class method1 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("chapter2.reflection.method1");
+            Class cls = Class.forName("chapter2.reflection.extract.Method");
 
-            Method[] methodList = cls.getDeclaredMethods();
+            java.lang.reflect.Method[] methodList = cls.getDeclaredMethods();
             for (int i = 0; i<methodList.length; i++) {
-                Method m = methodList[i];
+                java.lang.reflect.Method m = methodList[i];
                 System.out.println("name = "+m.getName());
                 System.out.println("declared class = "+m.getDeclaringClass());
 
